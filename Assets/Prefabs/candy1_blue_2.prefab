@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5948910532056021593}
   - component: {fileID: 5948910532056021594}
   m_Layer: 0
-  m_Name: candy1_blue2
-  m_TagString: Untagged
+  m_Name: candy1_blue_2
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1df1f32da818db1439c5bf564a440fe4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35e98cb623067de41a4c32e9bea24faa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,3 +121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: 38eb8b8f2016e40419a5c3127a37dcd1, type: 3}
   blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  hitSprites:
+  - {fileID: 21300000, guid: a5bc9cdaa06035247bb8a71ae439f2e8, type: 3}
+  timesHit: 0
